@@ -1,5 +1,4 @@
-# bookclub
-An Internet Enabled Book Club
+# An Internet Enabled Book Club
 
 The code for http://simonv3.github.io/bookclub/
 
