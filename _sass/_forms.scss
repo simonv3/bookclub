@@ -88,10 +88,27 @@
   }
 }
 
-/*#mc_embed_signup div.mce_inline_error {
+#mc_embed_signup div.mce_inline_error {
   display: none !important;
-}*/
+}
 
 #mc_embed_signup input.mce_inline_error {
   border-color: $error-color !important;
+}
+
+.response {
+  margin-bottom: -1rem;
+  margin-top: 3rem;
+  padding: .5rem;
+}
+
+.response.mc-success {
+  border: 4px solid $success-color;
+  background-color: transparentize($success-color, .5);
+  color: white;
+}
+
+.response.mc-error {
+  border: 4px solid $error-color;
+  background-color: transparentize($error-color, .5);
 }
